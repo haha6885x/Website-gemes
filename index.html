@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Ngawur</title>
+  <style>
+    body {
+      background-color: #0050d0;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .logo-image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin: 10px auto;
+      display: block;
+      border: 2px solid white;
+      border-radius: 15px;
+    }
+    .section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .game-card {
+      background: white;
+      border-radius: 15px;
+      padding: 10px;
+      margin: 20px;
+      color: black;
+      width: 280px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 10px;
+      border: 3px solid black;
+    }
+    .play-button {
+      background-color: transparent;
+      border: none;
+      margin: 10px auto;
+      display: flex;
+      justify-content: center;
+    }
+    .oval-button {
+      background-color: white;
+      color: black;
+      padding: 10px 40px;
+      border-radius: 50px;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 16px;
+      cursor: pointer;
+      border: 2px solid black;
+    }
+    .game-title {
+      font-family: monospace;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>SELAMAT DATANG</h1>
+  <p>Games by "Game Ngawur"</p>
+
+  <!-- Logo Game Ngawur -->
+  <img src="IMG_20250503_132102.png" alt="Logo Game Ngawur" class="logo-image">
+
+  <div class="section">
+    <!-- Game 1 -->
+    <div class="game-card">
+      <img src="Proyek Baru 34 [F86A120].png" alt="Racing Competition">
+      <a href="https://games-racing-competition.vercel.app/" target="_blank" class="play-button">
+        <div class="oval-button">PLAY</div>
+      </a>
+      <div class="game-title">NAME GAMES: RACING COMPETITION</div>
+    </div>
+
+    <!-- Game 2 -->
+    <div class="game-card">
+      <img src="IMG_20250503_132012.png" alt="Stacking Blocks V1">
+      <a href="https://games-stacking-blocks-v1.vercel.app/" target="_blank" class="play-button">
+        <div class="oval-button">PLAY</div>
+      </a>
+      <div class="game-title">NAME GAMES: STACKING BLOCKS V1</div>
+    </div>
+
+    <!-- Game 3 -->
+    <div class="game-card">
+      <img src="IMG_20250503_132012.png" alt="Stacking Blocks V2">
+      <a href="https://games-stacking-blocks-v2-v2hn.vercel.app/" target="_blank" class="play-button">
+        <div class="oval-button">PLAY</div>
+      </a>
+      <div class="game-title">NAME GAMES: STACKING BLOCKS V2</div>
+    </div>
+  </div>
+</body>
+</html>
